@@ -1,0 +1,109 @@
+{% extends 'base.html' %}
+
+
+{% block head %}
+<title>Vigenère Cipher</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+<style>
+body {
+  text-align: center;
+}
+form {
+  display: inline-block;
+}
+.column {
+  float: left;
+  width: 50%;
+  padding: 40px;
+  height:768px;
+border-color:black;
+align-content: center
+}
+th {
+  background-color: rgb(63, 63, 63);
+  color: white;
+  border-color: black;
+}
+td{
+  border-color:black;
+  color: white;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display:table;
+  clear: both;
+}
+</style>
+{% endblock %}
+
+
+{% block body %}
+
+<div style="background-image: url('/static/img/wall.jpg');height:100%">
+  <h2 style="text-align: center; top: 30px;"><span class="badge badge-light">CRYPTOGRAPHY, NETWORK SECURITY & CYBER LAW (17CS61)</span></h2>
+  <br></br>
+<div class="content">
+  
+  <h1 style="text-align: center; top: 30px;"><span class="badge badge-light">Vigenère Cipher</span></h1>
+
+
+
+
+
+  <div class="form">
+      <form action="/" method="POST">
+        <h4 style="color:black;">Enter the Plain Text!</h4>
+          <input type="text" name="plaintext" id="plaintext">
+          <h4 style="color:black;">Enter the Key!</h4>
+          <input type="text" name="key" id="key">
+          <br></br>
+          <button class="btn btn-danger" type="submit" >Encrypt</button>
+          <br></br>          
+      </form>
+  </div>
+  
+
+<br></br>
+<table align="center" width="400" height="150">
+  <tr>
+    <th>NAME </th>
+    <th>USN</th>
+  </tr>
+  <tr>
+    <td>AMOGH R</td>
+    <td>1KS17CS005</td>
+  </tr>
+  <tr>
+    <td>DARSHAN S</td>
+    <td>1KS17CS020</td>
+  </tr>
+  <tr>
+      <td>GANESH GB</td>
+      <td>1KS17CS024</td>
+  </tr>
+  <tr>
+    <td>HANUMESH V.T</td>
+    <td>1KS17CS028</td>
+  </tr>
+  <tr>
+    <td>KARTHIK T.C</td>
+    <td>1KS17CS033</td>
+  </tr>
+  <tr>
+    <td>MANJUNATH</td>
+    <td>1KS17CS040</td>
+  </tr>
+  <tr>
+    <td>NIKHIL SUBRAMANYA</td>
+    <td>1KS17CS046</td>
+  </tr>
+  <tr>
+    <td>NITISH KR. GUPTA</td>
+    <td>1KS17CS049</td>
+    </tr>
+</table>
+{% endblock %}
