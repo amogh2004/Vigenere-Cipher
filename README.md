@@ -1,5 +1,5 @@
 # Implementation of Secret Key Cryptography Algorithms: VIGENERE-CIPHER
-## Team Details
+<!---## Team Details
 ### Team 3
 1KS17CS005 AMOGH R <br/>
 1KS17CS040 MANJUNATH A <br/>
@@ -9,3 +9,4 @@
 1KS17CS033 KARTHIK T C <br/>
 1KS17CS020 DARSHAN S <br/>	
 1KS17CS028 HANUMESH V T	<br/>
+--->
